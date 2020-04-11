@@ -1,0 +1,92 @@
+/********************************************************************
+I declare that my assignment is wholly my own work in accordance with Seneca Academic Policy. No part of this assignment has been copied manually or electronically from any other source (including web sites) except for the information supplied by the WEB222 instructors and / or made available in this assignment for my use.
+I also declare that no part of this assignment has been distributed to other students.
+Name: Nikita Sushko
+Dated: 20.03.2020
+********************************************************************/
+
+html, body 
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#main
+{
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+    filter: brightness(30%);
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+    
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+.byme
+{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+hr
+{
+    width: 70%;
+}
+
+div.photos
+{
+    width: 600px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin: auto;
+}
+  
+  div.title
+{
+    text-align: center;
+    padding: 10px 20px;
+    margin: auto;
+    color: black;
+}
+
+  div.description
+  {
+      color: black;
+      margin: auto;
+  }
+
+#reflect
+{
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    width: 90%;
+    border: 1px solid white;
+    word-break: break-all;
+}
+
+#back
+{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 44%;
+}
